@@ -13,10 +13,7 @@ template.innerHTML = `
         </g>
     </svg>
     <slot></slot>
-    <footer>
-        <p>To teach you only the most <strong>up-to-date</strong> information, this course is <strong>remastered</strong> every three years.</p>
-		<p><a href="https://twitter.com/siliconwat">Follow me on Twitter</a> for real-time updates!</p>
-    </footer>
+    <sw-download></sw-download>
 `;
 
 export default template;
